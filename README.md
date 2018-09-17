@@ -1,6 +1,13 @@
-# Project Name
+---
+services: cosmos-db
+platforms: dotnet
+api: SQL
+author: markjbrown
+---
 
-(short, 1-3 sentenced, description of the project)
+# Azure Cosmos DB Multi-Master Conflict Resolution Samples
+
+This sample demonstrates how to implement conflict resolution with a multi-master enabled Cosmos DB database. This solution includes a conflict generator class that will intentionally attempt to create conflicts so you can see how conflicts are resolved.
 
 ## Features
 
@@ -14,39 +21,18 @@ This project framework provides the following features:
 
 ### Prerequisites
 
-(ideally very short, if any)
+Restore missing NuGet packages. To do this, open the NuGet package console on the solution and select the "Restore" button top left. If needed, manaually install the CosmosDB client and Newtonsoft packages.
 
-- OS
-- Library version
-- ...
+```bash
+PM> Install-Package Azure.CosmosDB.NET
+PM> Install-Package newtonsoft.
+```
 
-### Installation
+Next open the app.config file and replace the endpoint and key with your values.
 
-(ideally very short)
-
-- npm install [package name]
-- mvn install
-- ...
-
-### Quickstart
-(Add steps to get up and running quickly)
-
-1. git clone [repository clone url]
-2. cd [respository name]
-3. ...
+Run the solution
 
 
-## Demo
-
-A demo app is included to show how to use the project.
-
-To run the demo, follow these steps:
-
-(Add steps to start up the demo)
-
-1.
-2.
-3.
 
 ## Resources
 
