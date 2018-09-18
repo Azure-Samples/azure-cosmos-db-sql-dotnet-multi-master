@@ -2,7 +2,6 @@
 services: cosmos-db
 platforms: dotnet
 api: SQL
-author: markjbrown
 ---
 
 # Azure Cosmos DB Multi-Master Conflict Resolution Samples
