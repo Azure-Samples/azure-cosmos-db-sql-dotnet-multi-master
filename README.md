@@ -4,7 +4,7 @@ platforms: dotnet
 api: SQL
 ---
 
-# Azure Cosmos DB SQL Api Multi-Master Sample for .NET
+# Multi-Master SQL API Sample for .NET
 
 This sample demonstrates how to implement conflict resolution with a multi-master enabled Cosmos DB database. This solution includes a conflict generator class that will intentionally attempt to create conflicts. It also includes three different conflict resolution mode samples so you can see how conflicts are resolved.
 
