@@ -1,7 +1,11 @@
 ---
-services: cosmos-db
-platforms: dotnet
-api: SQL
+page_type: sample
+languages:
+- csharp
+products:
+- azure
+description: "This sample demonstrates how to implement conflict resolution with a multi-master enabled Cosmos DB database."
+urlFragment: azure-cosmos-db-sql-dotnet-multi-master
 ---
 
 # Multi-Master SQL API Sample for .NET
